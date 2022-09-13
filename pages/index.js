@@ -7,7 +7,7 @@ import { createPost } from '../src/graphql/mutations';
 import { listPosts } from '../src/graphql/queries';
 import styles from '../styles/Home.module.css';
 
-Amplify.configure({ ...awsExports, ssr: true });
+// Amplify.configure({ ...awsExports, ssr: true });
 
 // export async function getServerSideProps({ req }) {
 //   const SSR = withSSRContext({ req });
